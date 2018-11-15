@@ -1,0 +1,127 @@
+SEARCH=D:\MINIGUI\HARBOUR\BIN
+GUI=Y
+DIROBJ  OBJ
+EXEFILE NFCE4P.exe
+FILE NFCE.prg
+FILE SQL_FUNCOES.prg
+FILE SQL_ABRE_DBF.PRG
+FILE SQL_h_textbtn.prg
+*FILE h_textbtn.prg
+FILE LIBXH.PRG
+FILE SQL_CRIA_TABELA.prg
+FILE tprinto.PRG
+FILE tprintPDF.PRG
+FILE SQL_CON_DAVS.prg
+FILE sql_con_pre_venda.PRG
+FILE sql_PRE_VEN.PRG
+FILE VENDE_NFCE.PRG
+file jj3_boleto.prg
+file jj_boleto.prg 
+file jL_boleto.prg 
+file BOLETOSICOOB.prg
+FILE Emitidas_Contingencia.prg
+FILE SQL_DAV_ORC.prg
+FILE h_mBrowse.PRG
+FILE ACBr_FUN.PRG
+FILE ACBr_XML.PRG
+FILE ACBr_ARQ.PRG
+FILE ACBr_MON.PRG
+FILE ACBr_NFe.PRG
+*FILE MYSQL_BROWSE_NFC_e_saida.PRG
+FILE MYSQL_BROWSE_NFe_saida.PRG
+FILE sql_consulta_boleto.PRG
+FILE SQL_CLIENTES.PRG
+FILE sql_produtos.PRG
+FILE EmissorNFedireto.PRG
+file ModuloEmissorNF_recebe_da_nfce.prg
+FILE EmissorNFE_Devolucao_da_nfce.PRG
+FILE consultas_Contingencia.PRG
+FILE Unitilizacao.PRG
+file MODULOUSUARIOS.prg
+FILe HB_Cria_Log.prg
+file duplicata_da_nfec.prg
+file sql_abre_caixa.prg
+FILE RESUMO_CAIXA.PRG
+FILE autorizacao_geral.PRG
+FILE carta_correcao.PRG
+FiLE D_daruma.prg
+file CANCELAR_65.prg
+file CANCELAR_55.prg
+FILE IMPRESSORA.PRG
+file j_consulta_nf.prg
+file sql_PROC.prg
+file compilacao.prg
+file IMPRIMIR_EVENTO.prg
+file enviar_contigencia.prg
+file recupera_recriar_xml_acbr.prg
+file recupera_recriar_xml_class.prg
+file configtela.prg
+FILE func_acbr.PRG
+file PEGA_CERTIFICADO.PRG
+file cria_XML.PRG
+file CRIA_XML_nfce.prg
+file Envia_Email.prg
+file telaconfiguracao.prg
+file MontaCartaCorrecao.prg
+file nfe_devolucao_fabrica.prg
+file ler_arquivos.prg
+file Manifestacao_Destinatario.prg
+file Conexao_Mysql
+file ValidIE.prg
+*file Validcpfcnpj.prg
+file Importar_XML_saida_nfce.prg
+file Importar_XML.prg
+file validorgtin.prg
+file Check_nfce_acbr.prg
+file Check_nfce_A_class.prg
+file SQL_CRIA_DIRETORIO.prg
+file confirguaracao_Email.prg
+file TClasse_LerDANFE.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\MRBoleto.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\oBoleto.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\oRemessa.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\Lista_Boletos.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\Boleto_ACBr.prg
+file F:\NFC-E-v-3-plus-4.00\boleto\Importar_Boletos
+
+
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_digitodoc.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_extenso.prg
+*file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_inscestadual.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_miscfunc.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazassina.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazassinachk.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazcapicom.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazclass.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdacte.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdadfe.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdaevento.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdamdfe.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdanfce.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazdanfe.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_sefazxmlclass.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_xharbour.prg
+file F:\NFC-E-v-3-plus-4.00\sefazclass-master\ze_xmlfunc.prg
+
+
+
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\HbINI.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\HbNFe.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFeAssina.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFeValida.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFeFuncoes.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFeIniToXML.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\inifile.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFCeIniToXML.prg
+file F:\NFC-E-v-3-plus-4.00\HBDANFE\hbNFeEmail.prg
+
+
+
+
+
+ICONEAA       ICON IMAGENS\jumbo1.ICO
+LIB D:\BORLAND\BCC55\LIB\PSDK\MSIMG32.LIB
+RESOURCE jumbo.RC
+RESOURCE DEMO.RC
+RESOURCE D:\MINIGUI\RESOURCES\MINIGUI.RC
+RESOURCE D:\MINIGUI\RESOURCES\MINIPRINT.RC
