@@ -387,8 +387,8 @@ coluna:=nHeight
 
 	             cResIco := nil
 			    cResPict := 'consulta_nfce'
-                bAction  :=  'Consulta_NFEc()'
-			    cTooltip := "Consulta nfce Emitidas notas Grandes"
+                bAction  :=  'Consulta_Nfce_4_00()'
+			    cTooltip := "Consulta nfce Emitidas "
                METRO_BUTTON("OButton_3x2",nStRow3,300+5,247,120,"Consulta nfce Emitidas",cResPict,cResIco,;
                              aFontColor,COLOR_BUTTONE_RED,bAction,cTooltip)
 
@@ -396,8 +396,8 @@ coluna:=nHeight
 					
 		        cResIco := nil
 			    cResPict := 'bWeather'
-                bAction  :=  'MYSQL_BROWSE_nfe_saida() '
-			    cTooltip := "Consulta nfce Emitidas notas Grandes"
+                bAction  :=  'Consulta_Nfe_4_00() '
+			    cTooltip := "Consulta nfe Emitidas notas Grandes"
                METRO_BUTTON("OButton_3x3",nStRow3,554+5,247,120,"Consulta nfe Emitidas",cResPict,cResIco,;
                aFontColor,COLOR_BUTTONE_GREEN,bAction,cTooltip)
         
@@ -486,7 +486,7 @@ Function MyPopup()
 			     define popup 'CONSULTAS'
                    *  menuitem 'CONSULTA EMISSÃO NFC_e NORMAL ' action {||MYSQL_BROWSE_nfC_e_saida()}    Image cPathImagem+ 'CONSUL1.bmp'   
                     * separator
-                     menuitem 'CONSULTA EMISSÃO NFC_e NORMAL ' action {||Reconectar_A(), Consulta_NFEc() }    Image cPathImagem+ 'CONSUL1.bmp'   
+                     menuitem 'CONSULTA EMISSÃO NFC_e NORMAL ' action {||Reconectar_A(), Consulta_Nfce_4_00() }    Image cPathImagem+ 'CONSUL1.bmp'   
                      separator
                      menuitem 'EMISSÃO DUPLICATAS COM HISTORICO' action {||duplcas_do_nfe()}    Image cPathImagem+ 'CONSUL1.bmp'   
                      separator
@@ -494,7 +494,7 @@ Function MyPopup()
 					 separator
                      menuitem 'CONSULTA EMISSÃO DAVS' Action {||Consulta_DAVS() }    Image cPathImagem+ 'CONSUL1.bmp' 
                      separator
-                     menuitem 'CONSULTA EMISSÃO NFE  ' Action {||MYSQL_BROWSE_nfe_saida() }    Image cPathImagem+ 'CONSUL1.bmp'   
+                     menuitem 'CONSULTA EMISSÃO NFE  ' Action {||Consulta_Nfe_4_00() }    Image cPathImagem+ 'CONSUL1.bmp'   
 					 separator
                      menuitem 'INUTILIZAÇÃO DE NFE    ' Action {||F_unitilizacao()}    Image cPathImagem+ 'CONSUL1.bmp'   
 					  separator
